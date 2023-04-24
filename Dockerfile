@@ -18,4 +18,12 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y -q \
   libxtst6 \
   locales \
   unzip \
-  wget
+  wget \
+  g++ \
+  graphviz \
+  iproute2 \
+  libgtk-3-dev \
+  libtinfo5 \
+  lsb-core \
+  net-tools \
+  unzip
